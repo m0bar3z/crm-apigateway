@@ -1,0 +1,153 @@
+{
+    "appPort": 4000,
+    "mongo": {
+        "host": "mongodb://localhost/crm"
+    },
+    "sms": {
+        "negin": {
+            "user": "",
+            "password": "",
+            "host": "http://sms.ir/"
+        },
+        "KavenegarApi": {
+            "apikey": "",
+            "sender": "100018801880"
+        }
+    },
+    "test": {
+        "user": {
+            "password": "123",
+            "family": "علی شکوهی",
+            "email": "m.min@gmail.com",
+            "mobile": "09625811111",
+            "company": "شکوهی",
+            "mobileOrEmail": "09532511111",
+            "code": "3823",
+            "position": 1
+        },
+        "newUser": {
+            "password": "123",
+            "family": "علی محمودی",
+            "email": "a.mhm@gmail.com",
+            "mobile": "09520311111",
+            "code": "1899",
+            "position": 2,
+            "companyName": "mhmnejad",
+            "companyAddress": "راهنمایی 24222",
+            "employerMobile": "09532586598"
+        },
+        "userScope": "user",
+        "customer": {
+            "family": "هاشمی",
+            "mobile": "09527111111",
+            "birthday": "2021-05-31T05:42:13.845Z",
+            "address": "معلم 24"
+        },
+        "order": {
+            "products": [
+                {
+                    "_id": "60b72afa1f24b03fe4fc7b51",
+                    "quantity": 3,
+                    "sellingPrice": "30000"
+                }
+            ],
+            "customer": {
+                "family": "محمد سلامی",
+                "mobile": "09307511111",
+                "birthday": "1900-01-01T05:42:13.845Z"
+            },
+            "description": "",
+            "reminder": 7,
+            "address": "معلم 24",
+            "duration": 40
+        },
+        "product": {
+            "name": "لیموناد",
+            "description": "دورچین لیمو",
+            "sellingPrice": "20000"
+        },
+        "editedProduct": {
+            "_id": "60c98bbbfa4cab1dd8c70d77",
+            "active": true,
+            "name": "موهیتو عربی",
+            "description": "نعنا تازه",
+            "sellingPrice": "20000"
+        },
+        "appInfo": {
+            "versionCode": 1,
+            "os": "android"
+        },
+        "Bill": {
+            "name": "اجاره",
+            "cost": "2000000"
+        },
+        "employee": {
+            "usernameOrMobile": "0996"
+        },
+        "getOrderParams": {
+            "customerName": " ",
+            "customerMobile": "0",
+            "startDate": "1900-01-01T05:42:13.845Z",
+            "endDate": "1900-01-01T05:42:13.845Z"
+        },
+        "getCustomerParams": {
+            "family": " ",
+            "mobile": "0",
+            "createdAtFrom": "1900-01-01T05:42:13.845Z",
+            "createdAtTo": "1900-01-01T05:42:13.845Z",
+            "lastBuyFrom": "1900-01-01T05:42:13.845Z",
+            "lastBuyTo": "2021-07-06",
+            "orderFrom": "0",
+            "orderTo": "0",
+            "totalFrom": "0",
+            "totalTo": "0"
+        },
+        "discount": {
+            "name": "تولد",
+            "type": 0,
+            "customer": "0935",
+            "percentage": 5,
+            "sms": true
+        },
+        "editedEmployee": {
+            "_id": "60d953d772c6de4484069ecb",
+            "permissions": {
+                "addOrder": true,
+                "getOrders": true,
+                "reminder": true,
+                "getProducts": true,
+                "finance": true,
+                "getCustomers": true,
+                "getEmployees": true,
+                "getDiscounts": true
+            }
+        },
+        "deleteEmployee": {
+            "_id": "60d823a1f674e530e09fc6ce"
+        },
+        "editOrderStatus": {
+            "orderId": "60e1b387cef3a81c70726ede",
+            "status": 2
+        },
+        "deliverySms": {
+            "orderId": "60e1b387cef3a81c70726ede",
+            "mobile": "09307511111"
+        },
+        "editApplicationByEmployer": {
+            "applicationId": "60e555fd9637c83760618ac9",
+            "status": 3
+        },
+        "editApplicationByEmployee": {
+            "employeeId": "60e555fd9637c83760618ac8",
+            "status": 3
+        },
+        "editAccount": {
+            "company": "mohaddes"
+        },
+        "editSms": {
+            "type": 1,
+            "text": "سفارش شما با موفقیت ثبت شد. از اینکه مارا انتخاب کرده اید متشکریم",
+            "status": false
+        }
+    }
+}
